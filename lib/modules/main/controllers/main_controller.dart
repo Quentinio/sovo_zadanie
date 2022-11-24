@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:get/get.dart';
+import 'package:sovo_zadanie/modules/home/models/todo_model.dart';
 
 import '../../../data/auth.dart';
 import '../../../routes/app_pages.dart';
@@ -10,6 +11,7 @@ class MainController extends GetxController {
 
   final authData = AuthData();
   Rx<AppUser?> user = Rx<AppUser?>(null);
+  Rx<TodoModel?> todo = Rx<TodoModel?>(null);
   late StreamSubscription disableListener;
 
   var tabIndex = 0;

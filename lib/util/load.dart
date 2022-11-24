@@ -11,7 +11,7 @@ void load(BuildContext context) {
       elevation: 0,
       content: Center(
         child: CircularProgressIndicator(
-          color: Color(0xffFF6B00),
+          color: Color(0xff20f3b4),
         ),
       ),
     ),
