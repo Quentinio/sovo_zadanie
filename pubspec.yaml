@@ -1,0 +1,39 @@
+name: sovo_zadanie
+description: Zadanie rekrutacyjne na pozycje Flutter Developer nad projektem SOVO
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  firebase_core: ^2.2.0
+  firebase_analytics: ^10.0.5
+  firebase_auth: ^4.1.2
+  cloud_functions: ^4.0.4
+  cloud_firestore: ^4.0.5
+  firebase_storage: ^11.0.5
+  fluttertoast: ^8.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
