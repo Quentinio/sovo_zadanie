@@ -13,7 +13,7 @@ class AppUser {
   String uid;
   final String email;
   final String name;
-  final int points;
+  late final int points;
 
 
 

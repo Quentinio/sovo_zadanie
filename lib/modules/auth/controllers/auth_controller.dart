@@ -62,7 +62,7 @@ class AuthController extends GetxController {
 
 
 
-  void points(int points) {
+  void savePoints(int points) {
     _points = points;
   }
 
@@ -130,6 +130,21 @@ class AuthController extends GetxController {
       print('$e');
     }
   }
+
+  Future<void> editPoints() async {
+    String uid = homeController.user.value!.uid;
+    try {
+        load(Get.context!);
+        await authData.editPoints(
+          uid: uid,
+          points: _points,
+        );
+    } catch (e) {
+      print('$e');
+    }
+  }
+
+
 
 
 

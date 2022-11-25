@@ -86,6 +86,10 @@ class AuthData {
     }
   }
 
+  Future<AppUser?> editPoints({required String uid, required int points}) async {
+    await _userRef.doc(uid).update({'points' : points});
+  }
+
 
   // Future<void> reset(
   // {required AppUser appUser, required String email}) async {

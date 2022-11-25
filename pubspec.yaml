@@ -23,6 +23,7 @@ dependencies:
   cloud_firestore: ^4.0.5
   firebase_storage: ^11.0.5
   fluttertoast: ^8.1.1
+  google_mobile_ads: ^2.3.0
 
 dev_dependencies:
   flutter_test:
